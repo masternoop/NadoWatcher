@@ -23,7 +23,7 @@ namespace NadoWatch.Helpers
 		#region Setting Constants
 
         private const string SettingsKey = "name_preference";
-        private static readonly string SettingsDefault = "https://gist.githubusercontent.com/derekforeman/7f0a1914f623530499340d4c2aa20a93/raw/488c8eba5caedaa45f5a2d0bb091e8d792cfe81f/description.txt";
+        private static readonly string SettingsDefault = "https://gist.githubusercontent.com/derekforeman/7f0a1914f623530499340d4c2aa20a93/raw/45e1e258992b6236a526977e78d3d14b0d674cf4/description.txt";
 
 		#endregion
 
