@@ -1,5 +1,8 @@
 ﻿using Foundation;
 using UIKit;
+using Microsoft.AppCenter;
+using Microsoft.AppCenter.Analytics;
+using Microsoft.AppCenter.Crashes;
 
 namespace NadoWatch
 {
@@ -20,7 +23,9 @@ namespace NadoWatch
         {
             // Override point for customization after application launch.
             // If not required for your application you can safely delete this method
-
+            AppCenter.Start("3786619f-11b5-48bc-8364-6b33d2975201",
+                   typeof(Analytics), typeof(Crashes));
+            AppCenter.Start("3786619f-11b5-48bc-8364-6b33d2975201", typeof(Analytics), typeof(Crashes));
             return true;
         }
 
